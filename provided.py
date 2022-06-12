@@ -31,7 +31,7 @@ while True:
         if os.path.exists(fpath):
             img = cv2.imread(fpath,0)
             if file == 'kitty':
-                cv2.imshow("KITTY", img)
+                cv2.imshow("HELLO KITTY", img)
                 cv2.waitKey(0)
                 cv2.destroyAllWindows()
                 break
